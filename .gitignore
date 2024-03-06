@@ -1,0 +1,18 @@
+# Folder
+node_modules/
+.vscode/
+
+
+# File
+
+.DS_Store
+.idea
+notes.md
+.env.local
+package-lock.json
+
+
+# Extension
+
+*.pdf
+*.zip

@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-// const path = require("path");
+const path = require("path");
 // const fs = require("fs");
 // const Jimp = require("jimp");
 // const uuidv4 = require("uuid/v4");

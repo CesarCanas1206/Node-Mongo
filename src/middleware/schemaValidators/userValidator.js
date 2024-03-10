@@ -1,5 +1,5 @@
-// const Joi = require("@hapi/joi");
-// Joi.objectId = require("joi-objectid")(Joi);
+const Joi = require("@hapi/joi");
+Joi.objectId = require("joi-objectid")(Joi);
 
 exports.addUser = (req, res, next) => {
   const schema = Joi.object({

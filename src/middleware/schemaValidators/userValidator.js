@@ -52,12 +52,12 @@ exports.addUser = (req, res, next) => {
   next();
 };
 
-// exports.resetPassword = (req, res, next) => {
-//   const schema = Joi.object({
-//     password: Joi.string().min(3).max(30).required(),
-//     retypepassword: Joi.required().valid(Joi.ref("password")),
-//     jwt: Joi.string().required(),
-//   });
+exports.resetPassword = (req, res, next) => {
+  const schema = Joi.object({
+    password: Joi.string().min(3).max(30).required(),
+    retypepassword: Joi.required().valid(Joi.ref("password")),
+    jwt: Joi.string().required(),
+  });
 
 //   const { error, value } = schema.validate(req.body);
 //   if (error) {
